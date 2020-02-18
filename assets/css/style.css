@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.phone-number > img{
+    height: 20px;
+    width: 20px;
+}
+
+.infos > div > img{
+    height: 40px;
+    width: 40px;
+}
+
+.phone-number{
+    float: right;
+    padding-right: 12px;
+    font-size: 0.9rem;
+    color: grey;
+}
+
+.navbar{
+    padding: 0;
+    clear: both;
+    box-shadow: 0 12px 20px -13.7px grey;
+}
+
+.our-addr{
+    margin-top: 35px;
+}
+
+.contact-info{
+    margin-top: 44px;
+}
+
+.contact-info > h2{
+    color: #00cc00;
+}
+
+.contact-info > p{
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.about-us{
+    background-color: rgb(233, 231, 231);
+    padding-top: 24px;
+    padding-bottom: 14px;
+  }
+
+  ul{
+    list-style: none;
+  }
+
+  ul > li{
+      margin-bottom: 10px;
+  }
+
+  ul > li > a{
+    color: black;
+}
+
+#short-text{
+    display: none;
+}
+
+#map{
+    margin-top: 28px;
+}
+
+#contact input[type="text"],#contact input[type="email"],textarea{
+    height: 38px;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#contact textarea{
+    height: 250px;
+}
+
+#contact button[type="submit"] {
+    cursor: pointer;
+    width: 100px;
+    border: none;
+    background: #4CAF50;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+  }
+
+@media only screen and (max-width : 767px){
+
+    .navbar-collapse{
+        background-color: #00cc00;
+        z-index: 1;
+        position: absolute;
+        width: 100%;
+        top: 74px;
+        left: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-link{
+        color: white;
+    }
+
+    .our-addr > h4{
+        text-align: center;
+    }
+
+    .contact-info > p{
+        font-size: 1.1rem;
+    }
+
+    .infos{
+        text-align: center;
+    }
+
+    .infos > p{
+        text-align: center;
+    }
+    
+    .contact-address > p:first-child{
+        text-align: center;
+    }
+
+    .contact-address,.infos > p{
+        font-size: 0.8rem;
+        color: grey;
+    }
+
+    #contact textarea{
+        height: 170px;
+    }
+
+    #contact button[type="submit"]{
+        width: 100%;
+    }
+
+      #map{
+          margin-bottom: -6px;
+      }
+
+      #realEstate , .link-list > a , .license-list >a{
+          font-size: 0.9rem;
+      }
+
+      ul > .link-list{
+          float: left;
+          margin: 0 20px 13px 1px;
+      }
+
+      #short-text{
+          display: block;
+      }
+
+      #long-text{
+          display: none;
+      }
+
+      ul > .license-list{
+          float: left;
+          margin: 0 17px 10px 3px;
+      }
+     
+      #signUp input[type="email"]{
+        height: 40px;
+        padding: 10px;
+        margin-right: -4px;
+        margin-top: -1px;
+      }
+
+      #signUp button[type="submit"] {
+        width: 90px;
+        height: 40px;
+      }
+}
+@media only screen and (max-width : 1024px){
+
+     .contact-address > p{
+          font-size: 0.8rem;
+      } 
+
+      ul > li > a, #realEstate{
+          font-size: 0.9rem;
+      }
+}
+
+.infos{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.para1{
+    padding-left: 10px;
+}
+
+.para{
+    padding-left: 12px;
+    padding-top: 7px;
+}
+
+.form{
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    margin: 0 10px 0 10px;
+}
+
+
+  iframe{
+      height: 300px;
+  }
+
+  #signUp input[type="email"]{
+    height: 35px;
+    width: 176%;
+    margin-top: 0;
+}
+
+#signUp button[type="submit"] {
+  cursor: pointer;
+  height: 35px;
+  margin-left: 42px;
+  width:45%;
+  border: none;
+  background: #02a802;
+  color: #FFF;
+  padding: auto;
+  font-size: 15px; 
+}
+
+.about-us{
+    margin-top: -6px;
+}
+
+footer{
+    background-color: grey;
+}
+
+footer > p{
+    color: white;
+    font-size: 0.8rem;
+    padding: 4px 0 6px 0;
+    margin-bottom: 0;
+}
