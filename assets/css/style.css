@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.nav-container{
+    padding: 0 3%;
+    box-shadow: 0 12px 20px -13.7px grey;
+}
+
 .phone-number > img{
     height: 20px;
     width: 20px;
@@ -24,11 +29,14 @@
 .navbar{
     padding: 0;
     clear: both;
-    box-shadow: 0 12px 20px -13.7px grey;
 }
 
 .our-addr{
     margin-top: 35px;
+}
+
+.address-info{
+    margin-top: 36px;
 }
 
 .contact-info{
@@ -70,6 +78,12 @@
     margin-top: 28px;
 }
 
+iframe{
+    height: 300px;
+    width: 100%;
+    border: white;
+}
+
 #contact input[type="text"],#contact input[type="email"],textarea{
     height: 38px;
     width: 100%;
@@ -79,7 +93,7 @@
 }
 
 #contact textarea{
-    height: 250px;
+    height: 300px;
 }
 
 #contact button[type="submit"] {
@@ -191,7 +205,7 @@
 }
 
 .infos{
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 15px;
 }
 
@@ -211,11 +225,6 @@
 .navbar-light .navbar-nav .nav-link{
     margin: 0 10px 0 10px;
 }
-
-
-  iframe{
-      height: 300px;
-  }
 
   #signUp input[type="email"]{
     height: 35px;
