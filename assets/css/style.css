@@ -5,7 +5,7 @@
 }
 
 .nav-container{
-    padding: 0 3%;
+    padding: 0 1.6%;
     box-shadow: 0 12px 20px -13.7px grey;
 }
 
@@ -21,7 +21,7 @@
 
 .phone-number{
     float: right;
-    padding-right: 12px;
+    padding-right: 17px;
     font-size: 0.9rem;
     color: grey;
 }
@@ -109,12 +109,16 @@ iframe{
 
 @media only screen and (max-width : 767px){
 
+    .phone-number{
+        padding-right: 2px;
+    }
+
     .navbar-collapse{
         background-color: #00cc00;
         z-index: 1;
         position: absolute;
         width: 100%;
-        top: 74px;
+        top: 59px;
         left: 0;
     }
 
