@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,151 +11,161 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    
+
 
     <link rel="stylesheet" href="./assets/css/style.css">
 
 
 </head>
+
 <body>
-    
-    <header>   
-        <div class="nav-container">
-            <div class="phone-number">         
+
+    <header>
+        <div class="container">
+            <div class="phone-number">
                 <img src="./assets/images/mobile-phone-icon-png-0.jpg.png" alt="phone">
                 <span>+91 9123456789</span>
-          </div>
-          <nav class="navbar navbar-expand-md navbar-light">     
+            </div>
+            <nav class="navbar navbar-expand-md navbar-light">
                 <a class="navbar-brand" href="#">
-                    <img src="./assets/images/logo.jpg" class="d-inline-block align-top" alt="logo">  
+                    <img src="./assets/images/logo.jpg" class="d-inline-block align-top" alt="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse"  id ="navbarNavAltMarkup">
-                  <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link text-center" href="#">Home</a>
-                    <a class="nav-item nav-link text-center" href="#">Properties</a>
-                    <a class="nav-item nav-link text-center" href="#">Agent</a>
-                    <a class="nav-item nav-link text-center" href="#">Blog</a>
-                    <a class="nav-item nav-link text-center" href="#">Contact</a>
-                  </div>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item"><a class="nav-item nav-link text-center" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-item nav-link text-center" href="#">Properties</a></li>
+                        <li class="nav-item"><a class="nav-item nav-link text-center" href="#">Agent</a></li>
+                        <li class="nav-item"><a class="nav-item nav-link text-center" href="#">Blog</a></li>
+                        <li class="nav-item"><a class="nav-item nav-link text-center" href="#">Contact</a></li>
+                    </ul>
                 </div>
             </nav>
-        </div>  
+        </div>
     </header>
 
-        <div>
-            <div class="container contact-info">
-                  <h2 class="text-center">Contact Information</h2>
-                  <p class=" text-center info-detail">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarassing hidden in the middle of the text</p>
-            </div>
+    <section>
+        <div class="container contact-info">
+            <h2 class="text-center">Contact Information</h2>
+            <p class=" text-center info-detail">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarassing hidden in the middle of the text</p>
         </div>
+    </section>
 
-        <div>
-            <div class="container our-addr">
-                <h4>Our Address</h4>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="contact-address">
-                            <p>If you are going to use a passage of Lorem Ipsum, you<br> need to be sure there isn't anything embarassing<br> hidden in the middle of the text</p>
-                            <div class="address-info">
-                              <div class="row infos">
-                                  <div class="col-md-1"><img src="./assets/images/17427.png" alt="location"></div>
-                                  <div class="col-md-11"><p class="para1">198,Lorem Ipsum has been the industry's standard dummy</p></div>                   
-                              </div>
-                              <div class="row infos">
-                                  <div class="col-md-1"><img src="./assets/images/17216.png" alt="number"></div>
-                                  <div class="col-md-11"><p class="para">+91 9123456789</p></div>    
-                              </div>
-                              <div class="row infos">
-                                  <div class="col-md-1"><img src="./assets/images/21-512.png" alt="email"></div>
-                                  <div class="col-md-11"><p class="para">test@test.com</p></div>     
-                              </div>
-                              <div class="row infos">
-                                  <div class="col-md-1"><img src="./assets/images/earth-global-globe-international-map-planet-world-2-12510.png" alt="site"></div>
-                                  <div class="col-md-11"><p class="para">http://test.com</p></div>
-                              </div>
-                            </div>
-                          </div>  
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form">
-                            <form id="contact">
-                                <div class="row">
-                                    <div class="col-lg-6 right-name">
-                                        <fieldset>
-                                            <input placeholder="name" type="text" tabindex="1" required autofocus>
-                                          </fieldset>
-                                    </div>
-                                    <div class="col-lg-6 left-email">
-                                        <fieldset>
-                                            <input placeholder="Email" type="email" tabindex="2" required>
-                                          </fieldset>
-                                    </div>
+    <section>
+        <div class="container our-addr">
+            <h4>Our Address</h4>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="contact-address">
+                        <p>If you are going to use a passage of Lorem Ipsum, you<br> need to be sure there isn't anything embarassing<br> hidden in the middle of the text</p>
+                        <div class="address-info">
+                            <div class="row infos">
+                                <div class="col-md-1"><img src="./assets/images/17427.png" alt="location"></div>
+                                <div class="col-md-11">
+                                    <p class="para1">198,Lorem Ipsum has been the industry's standard dummy</p>
                                 </div>
-                                <fieldset>
-                                  <textarea placeholder="Description......." tabindex="5" required></textarea>
-                                </fieldset>
-                                <fieldset>
-                                  <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">SEND</button>
-                                </fieldset>
-                              </form>
+                            </div>
+                            <div class="row infos">
+                                <div class="col-md-1"><img src="./assets/images/17216.png" alt="number"></div>
+                                <div class="col-md-11">
+                                    <p class="para">+91 9123456789</p>
+                                </div>
+                            </div>
+                            <div class="row infos">
+                                <div class="col-md-1"><img src="./assets/images/21-512.png" alt="email"></div>
+                                <div class="col-md-11">
+                                    <p class="para">test@test.com</p>
+                                </div>
+                            </div>
+                            <div class="row infos">
+                                <div class="col-md-1"><img src="./assets/images/earth-global-globe-international-map-planet-world-2-12510.png" alt="site"></div>
+                                <div class="col-md-11">
+                                    <p class="para">http://test.com</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.1583106797566!2d88.43136131449839!3d22.57318158518251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275ad8d0118a5%3A0x9eadff5501ad6ad!2sKreeti%20Technologies%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1581956260937!5m2!1sen!2sin"></iframe>    
-        </div>
-
-        <div class="about-us">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <h6 class="font-weight-bold">About Realestate</h6>
-                        <p id="realEstate">
-                            Lorem Ipsum has been the industry's standard<br> dummy since the 1500s ,when an unknown printer took a galary of type and scrambled it to make a type specimen book.
-                        </p>
-                    </div>
-                    <div class="col-md-2">
-                        <h6 class="font-weight-bold">Links</h6>
-                        <ul>
-                            <li class="link-list"><a href="#">Home</a></li>
-                            <li class="link-list"><a href="#">Properties</a></li>
-                            <li class="link-list"><a href="#">Agent</a></li>
-                            <li class="link-list"><a href="#">Blog</a></li>
-                            <li class="link-list"><a href="#">Contact</a></li>
-                          </ul>
-                    </div>
-                    <div class="col-md-2">
-                        <h6 class="font-weight-bold">Information</h6>
-                        <ul>
-                            <li class="license-list" id="long-text"><a href="#">Terms & Condition</a></li>
-                            <li class="license-list" id="short-text"><a href="#">T & C</a></li>
-                            <li class="license-list"><a href="#">License</a></li>
-                            <li class="license-list"><a href="#">Privacy & Policy</a></li>
-                            <li class="license-list"><a href="#">contact Us</a></li>
-                          </ul>
-                    </div>
-                    <div class="col-md-5">
-                        <h6 class="font-weight-bold">Newsleller</h6>
-                        <form id="signUp">
+                <div class="col-md-6">
+                    <div class="form">
+                        <form id="contact">
                             <div class="row">
-                                <div class="col-5"><input type="email" placeholder="Email" required></div>
-                                <div class="col-7"><button type="submit">SEND</button></div>
+                                <div class="col-lg-6 no-gutters">
+                                    <fieldset>
+                                        <input placeholder="name" type="text" tabindex="1" required autofocus>
+                                    </fieldset>
+                                </div>
+                                <div class="col-lg-6 no-gutters">
+                                    <fieldset>
+                                        <input placeholder="Email" type="email" tabindex="2" required>
+                                    </fieldset>
+                                </div>
                             </div>
-                          </form>
+                            <fieldset>
+                                <textarea placeholder="Description......." tabindex="5" required></textarea>
+                            </fieldset>
+                            <fieldset>
+                                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">SEND</button>
+                            </fieldset>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
 
-        <footer>
-            <p class="text-center">Copyright 2019 realstate. All rights reserved.</p>
-        </footer>
+    <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.1583106797566!2d88.43136131449839!3d22.57318158518251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275ad8d0118a5%3A0x9eadff5501ad6ad!2sKreeti%20Technologies%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1581956260937!5m2!1sen!2sin"></iframe>
+    </div>
+
+    <section class="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h6 class="font-weight-bold">About Realestate</h6>
+                    <p id="realEstate">
+                        Lorem Ipsum has been the industry's standard<br> dummy since the 1500s ,when an unknown printer took a galary of type and scrambled it to make a type specimen book.
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="font-weight-bold">Links</h6>
+                    <ul>
+                        <li class="link-list"><a href="#">Home</a></li>
+                        <li class="link-list"><a href="#">Properties</a></li>
+                        <li class="link-list"><a href="#">Agent</a></li>
+                        <li class="link-list"><a href="#">Blog</a></li>
+                        <li class="link-list"><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="font-weight-bold">Information</h6>
+                    <ul>
+                        <li class="license-list" id="long-text"><a href="#">Terms & Condition</a></li>
+                        <li class="license-list" id="short-text"><a href="#">T & C</a></li>
+                        <li class="license-list"><a href="#">License</a></li>
+                        <li class="license-list"><a href="#">Privacy & Policy</a></li>
+                        <li class="license-list"><a href="#">contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-5">
+                    <h6 class="font-weight-bold">Newsleller</h6>
+                    <form id="signUp">
+                        <div class="row">
+                            <div class="col-5"><input type="email" placeholder="Email" required></div>
+                            <div class="col-7"><button type="submit">SEND</button></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p class="text-center">Copyright &copy; 2019 realstate. All rights reserved.</p>
+    </footer>
 
 </body>
+
 </html>

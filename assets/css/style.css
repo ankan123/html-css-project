@@ -1,90 +1,99 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.nav-container{
-    padding: 0 1.6%;
+header {
     box-shadow: 0 12px 20px -13.7px grey;
 }
 
-.phone-number > img{
+.phone-number>img {
     height: 20px;
     width: 20px;
 }
 
-.infos > div > img{
+.infos>div>img {
     height: 40px;
     width: 40px;
 }
 
-.phone-number{
+.phone-number {
     float: right;
     padding-right: 17px;
     font-size: 0.9rem;
     color: grey;
 }
 
-.navbar{
+.navbar-light .navbar-nav .nav-link {
+    margin: 0 10px 0 10px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #00cc00;
+}
+
+.navbar {
     padding: 0;
     clear: both;
 }
 
-.our-addr{
+.our-addr {
     margin-top: 35px;
 }
 
-.address-info{
+.address-info {
     margin-top: 36px;
 }
 
-.contact-info{
+.contact-info {
     margin-top: 44px;
 }
 
-.contact-info > h2{
+.contact-info>h2 {
     color: #00cc00;
 }
 
-.contact-info > p{
+.contact-info>p {
     font-size: 1.2rem;
     color: gray;
 }
 
-.about-us{
+.about-us {
     background-color: rgb(233, 231, 231);
     padding-top: 24px;
     padding-bottom: 14px;
-  }
+}
 
-  ul{
+ul {
     list-style: none;
-  }
+}
 
-  ul > li{
-      margin-bottom: 10px;
-  }
+ul>li {
+    margin-bottom: 7px;
+}
 
-  ul > li > a{
+ul>li>a {
     color: black;
 }
 
-#short-text{
+#short-text {
     display: none;
 }
 
-#map{
+#map {
     margin-top: 28px;
 }
 
-iframe{
+iframe {
     height: 300px;
     width: 100%;
     border: white;
 }
 
-#contact input[type="text"],#contact input[type="email"],textarea{
+#contact input[type="text"],
+#contact input[type="email"],
+textarea {
     height: 38px;
     width: 100%;
     border: 1px solid #ccc;
@@ -92,7 +101,7 @@ iframe{
     padding: 10px;
 }
 
-#contact textarea{
+#contact textarea {
     height: 300px;
 }
 
@@ -105,15 +114,13 @@ iframe{
     margin: 0 0 5px;
     padding: 10px;
     font-size: 15px;
-  }
+}
 
-@media only screen and (max-width : 767px){
-
-    .phone-number{
+@media only screen and (max-width: 767px) {
+    .phone-number {
         padding-right: 2px;
     }
-
-    .navbar-collapse{
+    .navbar-collapse {
         background-color: #00cc00;
         z-index: 1;
         position: absolute;
@@ -121,142 +128,127 @@ iframe{
         top: 59px;
         left: 0;
     }
-
-    .navbar-light .navbar-nav .nav-link{
+    .navbar-light .navbar-nav .nav-link {
         color: white;
     }
-
-    .our-addr > h4{
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: black;
+    }
+    .our-addr>h4 {
         text-align: center;
     }
-
-    .contact-info > p{
+    .contact-info>p {
         font-size: 1.1rem;
     }
-
-    .infos{
+    .infos {
         text-align: center;
     }
-
-    .infos > p{
+    .infos>p {
         text-align: center;
     }
-    
-    .contact-address > p:first-child{
+    .contact-address>p:first-child {
         text-align: center;
     }
-
-    .contact-address,.infos > p{
+    .contact-address,
+    .infos>p {
         font-size: 0.8rem;
         color: grey;
     }
-
-    #contact textarea{
+    #contact textarea {
         height: 170px;
     }
-
-    #contact button[type="submit"]{
+    #contact button[type="submit"] {
         width: 100%;
     }
-
-      #map{
-          margin-bottom: -6px;
-      }
-
-      #realEstate , .link-list > a , .license-list >a{
-          font-size: 0.9rem;
-      }
-
-      ul > .link-list{
-          float: left;
-          margin: 0 20px 13px 1px;
-      }
-
-      #short-text{
-          display: block;
-      }
-
-      #long-text{
-          display: none;
-      }
-
-      ul > .license-list{
-          float: left;
-          margin: 0 17px 10px 3px;
-      }
-     
-      #signUp input[type="email"]{
+    #map {
+        margin-bottom: -6px;
+    }
+    #realEstate,
+    .link-list>a,
+    .license-list>a {
+        font-size: 0.9rem;
+    }
+    ul>.link-list {
+        float: left;
+        margin: 0 20px 13px 1px;
+    }
+    #short-text {
+        display: block;
+    }
+    #long-text {
+        display: none;
+    }
+    ul>.license-list {
+        float: left;
+        margin: 0 16px 10px 3px;
+    }
+    #signUp input[type="email"] {
         height: 40px;
         padding: 10px;
         margin-right: -4px;
         margin-top: -1px;
-      }
-
-      #signUp button[type="submit"] {
+    }
+    #signUp button[type="submit"] {
         width: 90px;
         height: 40px;
-      }
-}
-@media only screen and (max-width : 1024px){
-
-     .contact-address > p{
-          font-size: 0.8rem;
-      } 
-
-      ul > li > a, #realEstate{
-          font-size: 0.9rem;
-      }
+    }
 }
 
-.infos{
+@media only screen and (max-width: 1024px) {
+    .contact-address>p {
+        font-size: 0.8rem;
+    }
+    ul>li>a,
+    #realEstate {
+        font-size: 0.9rem;
+    }
+}
+
+.infos {
     margin-top: 20px;
     margin-bottom: 15px;
 }
 
-.para1{
+.para1 {
     padding-left: 10px;
 }
 
-.para{
+.para {
     padding-left: 12px;
     padding-top: 7px;
 }
 
-.form{
+.form {
     width: 100%;
 }
 
-.navbar-light .navbar-nav .nav-link{
-    margin: 0 10px 0 10px;
-}
-
-  #signUp input[type="email"]{
+#signUp input[type="email"] {
     height: 35px;
     width: 176%;
     margin-top: 0;
 }
 
 #signUp button[type="submit"] {
-  cursor: pointer;
-  height: 35px;
-  margin-left: 42px;
-  width:45%;
-  border: none;
-  background: #02a802;
-  color: #FFF;
-  padding: auto;
-  font-size: 15px; 
+    cursor: pointer;
+    height: 35px;
+    margin-left: 42px;
+    width: 45%;
+    border: none;
+    background: #02a802;
+    color: #FFF;
+    padding: auto;
+    font-size: 15px;
 }
 
-.about-us{
+.about-us {
     margin-top: -6px;
 }
 
-footer{
+footer {
     background-color: grey;
 }
 
-footer > p{
+footer>p {
     color: white;
     font-size: 0.8rem;
     padding: 4px 0 6px 0;
